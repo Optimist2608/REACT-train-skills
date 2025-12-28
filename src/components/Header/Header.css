@@ -1,0 +1,80 @@
+.head {
+    height: 36px;
+    margin-top: clamp(1.786rem, 1.3398rem + 0.7809vw, 2.143rem);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 91px;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.abito {
+    width: 27px;
+    height: 27px;
+}
+
+.abito_pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.logo_title {
+    font-family: 'Roboto-bold', sans-serif;
+    font-size: 1.714rem;
+    color: #0A143A;
+    user-select: none;
+}
+
+.nav_head {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.burger {
+    display: none;
+    width: 30px;
+    height: 30px;
+}
+
+#a_head1 {
+    transition: color 0.3s ease;
+}
+
+#a_head1:hover {
+    color: #256EEB;
+}
+
+.a_head2 {
+    background-color: #256EEB;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.a_head2:hover {
+    background-color: #1753b8;
+    box-shadow: 0 4px 12px rgba(37, 110, 235, 0.3);
+}
+
+@media (max-width:800px) {
+
+    #a_head1, #a_head3   {
+        display: none;
+    }
+    
+    .burger {
+        display: inline-block;
+    }
+}

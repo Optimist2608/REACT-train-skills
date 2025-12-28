@@ -1,0 +1,50 @@
+
+
+.card {
+    height: 279px;
+}
+
+.alert_pic {
+    width: 100%;
+    height: 178px;
+    overflow: hidden;
+}
+
+.alert_pic>img.alert_img {
+    transition: transform 0.35s ease, filter 0.35s ease;
+}
+
+.alert_pic:hover>img.alert_img {
+    transform: scale(1.05);
+    filter: brightness(0.95);
+    cursor: pointer;
+}
+
+.block {
+    margin-top: 12px;
+}
+
+.block_title {
+    color: #256EEB;
+    font-family: 'Roboto-bold';
+    font-size: 1.286rem;
+    margin-bottom: 6.35px;
+    transition: color 0.2s ease, text-decoration-color 0.2s ease;
+    cursor: pointer;
+}
+
+.block_title:hover {
+    color: #1753b8;
+    text-decoration: underline;
+    text-decoration-color: #256EEB;
+}
+
+.price {
+    color: #0A143A;
+    font-family: 'Roboto-bold';
+    font-size: 1.286rem;
+    margin-bottom: 10.56px;
+}
+.mini {
+    color: #C4C4C4;
+}
